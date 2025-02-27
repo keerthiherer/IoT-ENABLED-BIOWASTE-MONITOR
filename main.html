@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT-Based Plastic Degradation & Methane Utilization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #eaeaea;
+            border-radius: 5px;
+        }
+        p, ul, ol, table {
+            font-size: 18px;
+            line-height: 1.6;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IoT-Based Plastic Degradation & Methane Utilization</h1>
+        
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>This project focuses on using plastic-eating bacteria to break down plastic waste while capturing methane gas, which is utilized in biofuel cells. IoT sensors such as MQ-6 (Gas Sensor), DHT11 (Temperature & Humidity Sensor), and ESP CAM monitor the process, with data uploaded to ThingSpeak and processed using Django REST framework.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Components & Connections</h2>
+            <table>
+                <tr>
+                    <th>Component</th>
+                    <th>Function</th>
+                    <th>Arduino Connection</th>
+                </tr>
+                <tr>
+                    <td>Arduino UNO</td>
+                    <td>Main microcontroller</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>MQ-6 Gas Sensor</td>
+                    <td>Detects methane emissions</td>
+                    <td>VCC → 5V, GND → GND, A0 → A0</td>
+                </tr>
+                <tr>
+                    <td>DHT11 Sensor</td>
+                    <td>Monitors temperature & humidity</td>
+                    <td>VCC → 5V, GND → GND, Data → D2</td>
+                </tr>
+                <tr>
+                    <td>ESP CAM</td>
+                    <td>Captures real-time images</td>
+                    <td>VCC → 3.3V, GND → GND, TX → RX, RX → TX</td>
+                </tr>
+                <tr>
+                    <td>ThingSpeak</td>
+                    <td>Cloud platform for data visualization</td>
+                    <td>Connected via ESP32 WiFi</td>
+                </tr>
+                <tr>
+                    <td>Django REST Framework</td>
+                    <td>Backend processing for data analytics</td>
+                    <td>Connected via API</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>Working Process</h2>
+            <ol>
+                <li>Plastic waste is placed in the bioreactor.</li>
+                <li>*Ideonella sakaiensis* bacteria degrade the plastic into simpler organic compounds.</li>
+                <li>Methanogenic bacteria convert these compounds into methane gas.</li>
+                <li>MQ-6 Sensor detects methane concentration to measure gas production.</li>
+                <li>DHT11 Sensor monitors temperature & humidity to ensure optimal bacterial activity.</li>
+                <li>ESP CAM captures real-time images of plastic degradation to visually track progress.</li>
+                <li>Data is uploaded to ThingSpeak and analyzed using Django REST framework for insights.</li>
+                <li>Methane is purified and used in a biofuel cell, generating electricity as a renewable energy source.</li>
+            </ol>
+        </div>
+        
+        <div class="section">
+            <h2>Applications & Benefits</h2>
+            <ul>
+                <li>Reduces plastic waste through biological degradation.</li>
+                <li>Generates renewable energy by capturing and utilizing methane gas.</li>
+                <li>Real-time IoT monitoring optimizes the efficiency of the biodegradation process.</li>
+                <li>Scalable solution for waste management industries and renewable energy production.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
