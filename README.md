@@ -1,12 +1,11 @@
 # IoT-Based Plastic Degradation & Methane Utilization
 
 ## Project Overview
-This project focuses on using **plastic-eating bacteria** to degrade plastic waste while simultaneously capturing **methane gas**, which is utilized in **biofuel cells**. The system integrates **IoT sensors (MQ-6 Gas Sensor, DHT11 Temperature & Humidity Sensor, and ESP CAM)** to monitor the process in real-time. Data is uploaded to **ThingSpeak** and processed using **Django REST framework** for analysis and optimization.
+This project focuses on using **BIO DEGRADING PROCESS** to degrade BIO waste while simultaneously capturing **methane gas**, which is utilized in **biofuel cells**. The system integrates **IoT sensors (MQ-6 Gas Sensor, DHT11 Temperature & Humidity Sensor, and ESP CAM)** to monitor the process in real-time. Data is uploaded to **ThingSpeak** and processed using **Django REST framework** for analysis and optimization.
 
 ---
 
 ## Features
-✅ **Biodegradation of Plastic** using *Ideonella sakaiensis* bacteria  
 ✅ **Methane Gas Utilization** for biofuel cell energy conversion  
 ✅ **IoT-Based Real-Time Monitoring** via sensors and cloud integration  
 ✅ **Data Analytics & Visualization** using Django REST framework & ThingSpeak  
@@ -28,14 +27,13 @@ This project focuses on using **plastic-eating bacteria** to degrade plastic was
 ---
 
 ## Working Process
-1. **Plastic waste is placed in the bioreactor.**  
-2. **Plastic-degrading bacteria (*Ideonella sakaiensis*) break down plastic into organic compounds.**  
-3. **Methanogenic bacteria convert these compounds into methane gas.**  
-4. **MQ-6 Sensor detects methane concentration for gas measurement.**  
-5. **DHT11 Sensor monitors temperature & humidity for optimal bacterial growth.**  
-6. **ESP CAM captures real-time images of plastic degradation for visual tracking.**  
-7. **Data is uploaded to ThingSpeak and analyzed using Django REST framework.**  
-8. **Methane is purified and used in a biofuel cell to generate renewable energy.**  
+ 
+1. **Methanogenic bacteria convert these compounds into methane gas.**  
+2. **MQ-6 Sensor detects methane concentration for gas measurement.**  
+3. **DHT11 Sensor monitors temperature & humidity for optimal bacterial growth.**  
+4. **ESP CAM captures real-time images of plastic degradation for visual tracking.**  
+5. **Data is uploaded to ThingSpeak and analyzed using Django REST framework.**  
+6. **Methane is purified and used in a biofuel cell to generate renewable energy.**  
 
 ---
 
@@ -59,7 +57,7 @@ This project focuses on using **plastic-eating bacteria** to degrade plastic was
 ---
 
 ## Applications & Benefits
-- **Reduces plastic waste** through biological degradation.
+
 - **Generates renewable energy** by capturing and utilizing methane gas.
 - **Enables real-time monitoring** for optimized biodegradation.
 - **Scalable for industrial waste management** and renewable energy production.
@@ -68,7 +66,6 @@ This project focuses on using **plastic-eating bacteria** to degrade plastic was
 
 ## Future Enhancements
 🔹 **AI-based Optimization** – Using ML models to predict and enhance plastic breakdown rates.  
-🔹 **Improved Bacterial Strains** – Engineering bacteria for faster plastic degradation.  
 🔹 **Blockchain Integration** – Secure tracking of waste management and energy output.  
 
 ---
